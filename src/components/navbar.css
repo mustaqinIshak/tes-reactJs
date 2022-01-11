@@ -1,0 +1,40 @@
+nav {
+    height: 123px;
+    padding-left: 40px;
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.nav-menu {
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.nav-menu a {
+    color: #8597AC !important; 
+    text-decoration: none;
+}
+
+.nav-menu :hover {
+    color: #1E5387 !important;
+    font-weight: bold;
+    border-bottom: 5px solid #2569A5;
+}
+
+.active {
+    border-bottom: 5px solid #2569A5;
+}
+
+.active span {
+    color: #1E5387 !important;
+    font-weight: bold;
+}
